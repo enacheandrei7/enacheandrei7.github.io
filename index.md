@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to my personal page!
 
-You can use the [editor on GitHub](https://github.com/enacheandrei7/enacheandrei7.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hi! My name is Enache Andrei-George and this is my GiTHub profile page! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Despre mine
+<img src="https://scontent.fcnd1-1.fna.fbcdn.net/v/t1.6435-9/153119002_3617637128285403_5377412047939036738_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHjABkjZVmK47vUGQ8YY31obn4dhcqrBb1ufh2FyqsFvTVGgqIHs51aV3hgO42n9VGJ2adZYYAY4Z7KPx1s-Z8A&_nc_ohc=ZDobAuOqhwQAX-Gjf6g&_nc_ht=scontent.fcnd1-1.fna&oh=8824050c734f6be52dbb59d3149fb083&oe=61918B4B" style="width:40%; height:40%">
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### My socials:
 
 ```markdown
-Syntax highlighted code block
+1. [Linkedin](https://www.linkedin.com/feed/)
+2. [Facebook](https://www.facebook.com/enache.andrei.10/)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/enacheandrei7/enacheandrei7.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
