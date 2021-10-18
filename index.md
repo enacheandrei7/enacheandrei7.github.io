@@ -7,7 +7,7 @@ Hi! My name is Enache Andrei-George and this is my GiTHub profile page!
 
 ### My socials:
 
-```markdown
+
 1. [Linkedin](https://www.linkedin.com/feed/)
 2. [Facebook](https://www.facebook.com/enache.andrei.10/)
 
