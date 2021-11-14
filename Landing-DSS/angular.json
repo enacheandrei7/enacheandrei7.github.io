@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Landing-page-DSS": {
+    "Landing-DSS": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Landing-page-DSS",
+            "outputPath": "dist/Landing-DSS",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Landing-page-DSS:build:production"
+              "browserTarget": "Landing-DSS:build:production"
             },
             "development": {
-              "browserTarget": "Landing-page-DSS:build:development"
+              "browserTarget": "Landing-DSS:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Landing-page-DSS:build"
+            "browserTarget": "Landing-DSS:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "Landing-page-DSS"
+  "defaultProject": "Landing-DSS"
 }
