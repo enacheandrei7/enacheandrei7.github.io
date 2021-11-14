@@ -1,10 +1,11 @@
 .PageWrapper {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     box-sizing: border-box;
-    width: 70%;
-    margin-left: 15%;
-    background-color: red;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, rgba(62,10,36,0.2) 0%, rgba(9,9,121,0.052836185743828756) 35%, rgba(50,152,255,0.25) 100%);
 }
 
 .Logo {
@@ -14,20 +15,21 @@
 .TitleClass{
     font-size: 42px;
     letter-spacing: 2px;
+    font-weight: 50px;
 }
 
 .SectionWrapper {
     text-align: left;
 }
 
-.AlignRight {
-    text-align: right;
-}
-
 .Padding20Px {
     padding: 20px;
     padding-bottom: 0;
 }
+
+.ParticipantName {
+    font-size: 22px;
+  }  
 
 .CenterAlignForParticipantsImages {
     text-align: center;
@@ -54,4 +56,50 @@
     display: inline-block;
     margin: 20px;
     padding-bottom: 20px;
+}
+
+.illustration
+{
+    width: 120px;
+    margin-right: 28px;
+}
+
+.InnerSectionWrapper
+{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .InnerSectionWrapper {
+      display: block;
+      text-align: center;
+    }
+
+    .illustration
+    {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .InnerSectionText
+    {
+        text-align: left;
+    }
+}
+
+.InnerSectionText
+{
+    font-size: 20px;
+}
+
+strong
+{
+    color: #5A31A0;
+}
+
+h2
+{
+    font-size: 28px;
 }
