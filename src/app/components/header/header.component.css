@@ -1,10 +1,16 @@
-.headerWrapper {
+.HeaderWrapper {
    margin-top: 20px;
-   padding-top: 30px;
+   padding-top: 20px;
    padding-bottom: 30px;
    text-align: center;
    border-radius: 50px;
-   background-image: linear-gradient(rgb(33, 10, 134), rgb(103, 140, 184));
+   background: rgb(57, 56, 80);
+   background: linear-gradient(
+     90deg,
+     rgba(57, 56, 80, 1) 0%,
+     rgba(74, 74, 150, 1) 35%,
+     rgba(50, 175, 200, 1) 100%
+   );
 }
 
 /* .imageWrapper {
@@ -14,7 +20,7 @@
     margin-right: 10%; 
 } */
 
-.logoImage{
+.LogoImage{
     width: 500px;
     border-radius: 50%;
     background-color: white;
