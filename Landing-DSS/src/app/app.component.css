@@ -1,105 +1,280 @@
 .PageWrapper {
-    text-align: center;
-    padding: 40px;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.05);
-    /* background: rgb(2,0,36); */
-    background: linear-gradient(90deg, rgba(62,10,36,0.2) 0%, rgba(9,9,121,0.052836185743828756) 35%, rgba(50,152,255,0.25) 100%);
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.05); */
+  /* background: rgb(2,0,36); */
+  background: linear-gradient(
+    90deg,
+    rgba(62, 10, 36, 0.2) 0%,
+    rgba(9, 9, 121, 0.052836185743828756) 35%,
+    rgba(50, 152, 255, 0.25) 100%
+  );
 }
+
+/* ##############*/
+.NavLogo {
+  cursor: pointer;
+  width: 80px;
+  margin-right: auto;
+}
+
+.NavClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* bottom: 200px; */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #e9ecf5;
+  padding: 3px 32px;
+  z-index: 99;
+}
+
+.NavLinks {
+  justify-content: left;
+  margin: 0 - 16px;
+}
+
+.NavLinks a {
+  color: #2e41a3;
+  font-size: 16px;
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 1px 16px;
+  border-radius: 99px;
+}
+
+.NavLinks a.is-active,
+.NavLinks a:hover {
+  background-color: #a7acc7;
+}
+/* ############ */
+
+.EntryZone {
+  display: flex;
+  background-color: white;
+  margin-top: 60px;
+  max-height: 800px;
+  justify-content: right;
+}
+
+.HalfPage {
+  width: 40%;
+  text-align: center;
+}
+
+.CleanersTopSide {
+  justify-items: right;
+}
+
+#CatchPhrase {
+  font-size: 5.5vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  /* padding-left: 0; */
+  margin-top: 25vh;
+}
+
+.CleanersImage {
+  width: 900px;
+  height: auto;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
+  /* min-width: 800px;
+  min-height: 100%; */
+  overflow: hidden;
+}
+
+.EyeCatcher {
+  margin: 0 1em 0 1em;
+}
+
+.StartingLogo {
+  width: 300px;
+}
+
+.SignUpMessage {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18vh;
+  margin-bottom: 3vh;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+form {
+  text-align: left;
+}
+
+.EmailInput {
+  font-size: 3vh;
+  /* text-align: center; */
+  color: #cfc8c8;
+  outline: none;
+  padding: 3px 0 3px 2px;
+  width: 50vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  /* border: hidden; */
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  /* border-bottom: 21px black; */
+  margin-left: 5%;
+}
+
+.EmailInput:focus {
+  outline: none;
+  color: black;
+}
+
+.SubmitEmail {
+  font-size: 3vh;
+  padding: 2px 0 2px 1px;
+  background-color: #0a3e91;
+  font-family: "PT Sans Narrow", sans-serif;
+  outline: none;
+  width: 14vh;
+  border: hidden;
+  color: white;
+  margin-left: 1%;
+}
+
+/* .PhoneMargin {
+  background-image: url("../assets/img/smartphone_empty_screen.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  content: "";
+  position: absolute;
+} */
 
 .Logo {
-    width: 200px;
+  width: 200px;
 }
 
-.TitleClass{
-    font-size: 42px;
-    letter-spacing: 2px;
-    font-weight: 50px;
+.TitleClass {
+  font-size: 42px;
+  letter-spacing: 2px;
+  font-weight: 50px;
 }
 
 .SectionWrapper {
-    text-align: left;
+  text-align: left;
 }
 
 .Padding20Px {
-    padding: 20px;
-    padding-bottom: 0;
+  padding: 20px;
+  padding-bottom: 0;
 }
 
 .ParticipantName {
-    font-size: 22px;
-  }  
+  font-size: 22px;
+}
 
 .CenterAlignForParticipantsImages {
-    text-align: center;
-    background: rgb(57, 56, 80);
-    background: linear-gradient(
-      90deg,
-      rgba(57, 56, 80, 1) 0%,
-      rgba(74, 74, 150, 1) 35%,
-      rgba(50, 175, 200, 1) 100%
-    );
-    color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  background: rgb(57, 56, 80);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 56, 80, 1) 0%,
+    rgba(74, 74, 150, 1) 35%,
+    rgba(50, 175, 200, 1) 100%
+  );
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .ParticipantsImages {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    box-shadow: -3px 3px 5px 5px rgba(0, 0, 0, .3);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: -3px 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
-  
+
 .ParticipantsImagesWrapper {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.illustration {
+  width: 120px;
+  margin-right: 28px;
+}
+
+.InnerSectionWrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1025px) {
+  .InnerSectionWrapper {
+    display: block;
     text-align: center;
-    display: inline-block;
-    margin: 20px;
-    padding-bottom: 20px;
-}
+  }
 
-.illustration
-{
-    width: 120px;
-    margin-right: 28px;
-}
+  #CatchPhrase {
+    margin-top: 8vh;
+  }
 
-.InnerSectionWrapper
-{
-    display: flex;
+  .SignUpMessage {
+    margin-top: 10vh;
+  }
+  .CleanersImage {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+  }
+
+  /* .NavClass {
+    display: block;
+  }
+
+  .NavLogo {
+    margin-left: 35%;
+  } */
+
+  .EntryZone {
+    display: block;
+  }
+
+  .HalfPage {
+    width: 100%;
     align-items: center;
+    padding-top: 1em;
+    padding-bottom: 0em;
+  }
+
+  .HalfPage > div {
+    padding-bottom: 1em;
+  }
+
+  .illustration {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .InnerSectionText {
+    text-align: left;
+  }
 }
 
-@media screen and (max-width: 600px) 
-{
-    .InnerSectionWrapper {
-      display: block;
-      text-align: center;
-    }
-
-    .illustration
-    {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .InnerSectionText
-    {
-        text-align: left;
-    }
+.InnerSectionText {
+  font-size: 20px;
 }
 
-.InnerSectionText
-{
-    font-size: 20px;
+strong {
+  color: #5a31a0;
 }
 
-strong
-{
-    color: #5A31A0;
-}
-
-h2
-{
-    font-size: 28px;
+h2 {
+  font-size: 28px;
 }
