@@ -33,7 +33,7 @@ nav {
   left: 0;
   right: 0;
   background: #e9ecf5;
-  padding: 3px 32px;
+  /* padding: 3px 32px; */
   z-index: 99;
 }
 
@@ -125,7 +125,8 @@ form {
   border-left: hidden;
   border-right: hidden;
   /* border-bottom: 21px black; */
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  margin-top: 10px;
 }
 
 .EmailInput:focus {
@@ -229,9 +230,7 @@ form {
     margin-top: 10vh;
   }
   .CleanersImage {
-    width: 100%;
-    height: auto;
-    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    display: none;
   }
 
   /* .NavClass {
@@ -277,4 +276,97 @@ strong {
 
 h2 {
   font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .NavClass 
+  {
+    justify-content: center;
+    height: 63px;
+  }
+
+  .NavLogo
+  {
+    display: none;
+  }
+
+  .NavLinks > *
+  {
+    margin: 0 !important;
+  }
+}
+
+
+.signupSectionWrapper
+{
+  position: absolute;
+  top: 63px;
+  background-color: #FFFFFF;
+  height: calc(100% - 63px);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .signupSectionWrapper
+  {
+    grid-template-columns: 1fr !important;
+  }
+
+  .signupSectionRightWrapper
+  {
+    display: none;
+  }
+
+  .signupSectionLeftInnerWrapper
+  {
+    text-align: center !important;
+    width: 80%;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .signupSectionLeftInnerWrapper form
+  {
+    text-align: center;
+  }
+
+  .SubmitEmail
+  {
+    margin-top: 10px;
+  }
+
+  .EmailInput
+  {
+    width: auto;
+  }
+}
+
+.lowerPageWrapper
+{
+  position: absolute;
+  top: 100%;
+}
+
+.signupSectionRightWrapper
+{
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: right;
+}
+
+.signupSectionImage
+{
+  height: 100%;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
+}
+
+.signupSectionLeftInnerWrapper
+{
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  transform: translate(0, -50%);
 }
