@@ -118,7 +118,7 @@ form {
   color: #cfc8c8;
   outline: none;
   padding: 3px 0 3px 2px;
-  width: 50vh;
+  width: 70%;
   font-family: "PT Sans Narrow", sans-serif;
   /* border: hidden; */
   border-top: hidden;
@@ -381,4 +381,6 @@ h2 {
   padding: 5px;
   height: 45px;
   width: 150px;
+  position: absolute;
+  left: 25%;
 }
