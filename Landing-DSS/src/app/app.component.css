@@ -118,7 +118,7 @@ form {
   color: #cfc8c8;
   outline: none;
   padding: 3px 0 3px 2px;
-  width: 70%;
+  width: 64%;
   font-family: "PT Sans Narrow", sans-serif;
   /* border: hidden; */
   border-top: hidden;
@@ -371,16 +371,11 @@ h2 {
   transform: translate(0, -50%);
 }
 
-.logos
-{
-  margin-top: 50px;
-  display: flex;
-}
 .getItNow 
 {
-  padding: 5px;
-  height: 45px;
-  width: 150px;
-  position: absolute;
-  left: 25%;
+  padding: 2px 0 2px 1px;
+  outline: none;
+  width: 14vh;
+  border: hidden;
+  margin-left: 1%;
 }
